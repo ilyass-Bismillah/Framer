@@ -1,0 +1,20 @@
+import { FaArrowRight } from "react-icons/fa";
+
+const SignSection = () => {
+  return (
+    <div className='mt-40 md:mt-60 bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] relative h-[460px]'id="signUp">
+      <h2 className="bg-gradient-to-b from-[#000000] to-[#001354] text-transparent bg-clip-text font-bold font-DM flex flex-col text-4xl w-[200px] md:w-full m-auto md:text-7xl py-10 -tracking-widest text-center">Sign up for free today</h2>
+      <p className='font-inter font-medium text-[#010D3E] text-lg md:text-xl tracking-wide text-center w-[330px] md:w-[550px] m-auto'>
+        Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.
+      </p>
+      <div className="flex items-center justify-center space-x-5 mt-10">
+        <button className="text-white text-lg font-inter bg-black rounded-xl px-5 py-2">Get for free</button>
+        <button className="flex items-center text-lg font-medium">Learn more<span className="px-2"><FaArrowRight /></span></button>
+      </div>  
+        <img src="/src/assets/Framer/emojistar 1.png" className="absolute md:-left-48 md:-top-16 lg:-top-20 lg:left-0 hidden sm:block"/>
+        <img src="/src/assets/Framer/helix2 1.png" className="absolute md:-right-40 md:top-10 lg:right-0 lg:top-5 hidden sm:block"/>
+    </div>
+  )
+}
+
+export default SignSection
