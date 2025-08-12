@@ -1,6 +1,10 @@
 import { FaFeatherAlt, FaRegBell, FaArrowRight } from "react-icons/fa";
 import { GoGoal } from "react-icons/go";
 import { PiLockBold } from "react-icons/pi";
+import  ProductImage  from '../assets/Framer/ProductImage.png';
+import  Torus  from '../assets/Framer/torus1.png';
+import  Pyramid  from '../assets/Framer/pyramid1.png';
+
 
 const grid = [
     {
@@ -29,15 +33,15 @@ const AboutSection = () => {
   return (
     <div className='bg-about-image bg-cover bg-no-repeat mt-20' id="about">
         <p className='font-medium text-sm border border-gray-300 rounded-xl px-3 py-1 w-44 m-auto'>Boost your productivity</p>
-        <h2 className="bg-gradient-to-b from-[#000000] to-[#001354] text-transparent bg-clip-text font-bold font-DM flex flex-col text-3xl md:text-6xl py-10 tracking-tighter md:-tracking-widest text-center">A more effective way to<span className='text-center'>track progress</span></h2>
+        <h2 className="bg-gradient-to-b from-[#000000] to-[#001354] text-transparent bg-clip-text font-bold font-DM flex flex-col text-3xl md:text-6xl py-10 tracking-tighter text-center">A more effective way to<span className='text-center'>track progress</span></h2>
         <p className='font-inter font-medium text-[#010D3E] text-lg md:text-xl tracking-wide text-center w-[330px] md:w-[535px] m-auto'>
             Effortlessly turn your ideas into a fully functional, responsive,
             no-code SaaS website in just minutes with the set of free components for Framer.
         </p>
         <div className='relative'>
-            <img src="/src/assets/Framer/Product Image.png" className='m-auto lg:w-[1400px]'/>
-            <img src="/src/assets/Framer/torus 1.png" className='absolute left-0 bottom-36 hidden sm:block'/>
-            <img src="/src/assets/Framer/pyramid 1.png" className='absolute right-0 lg:top-44 md:-top-28 hidden sm:block'/>
+            <img src={ProductImage} className='m-auto lg:w-[1400px]'/>
+            <img src={Torus} className='absolute left-0 bottom-36 hidden sm:block'/>
+            <img src={Pyramid} className='absolute right-0 lg:top-44 md:-top-28 hidden sm:block'/>
         </div>
         <div className="grid md:grid-cols-2 gap-y-20 mt-10 lg:grid-cols-4 px-14 gap-5 pb-32 place-items-center">
             {grid.map((item) => (

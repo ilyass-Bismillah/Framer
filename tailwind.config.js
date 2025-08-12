@@ -11,8 +11,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-image': "url('/src/assets/Framer/Rectangle 2.png')",
-        'about-image': "url('/src/assets/Framer/Rectangle 4.png')",
+        'hero-image': "url('/src/assets/Framer/Rectangle2.png')",
+        'about-image': "url('/src/assets/Framer/Rectangle4.png')",
       }
     },
   },

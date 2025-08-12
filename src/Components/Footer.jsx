@@ -1,12 +1,13 @@
 import { FaXTwitter, FaPinterest, FaLinkedin, FaTiktok, FaYoutube } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
+import  Default  from "../assets/Framer/Default.png"
 
 
 const Footer = () => {
   return (
     <div className='bg-black flex flex-col md:flex-row md:items-center justify-between pt-10 md:pt-0'>
       <div className="px-3">
-        <img src="/src/assets/Framer/Default.png" className="w-20"/>
+        <img src={Default} className="w-20"/>
         <div className="px-4 mt-3">
         <p className="font-inter font-medium text-lg text-[#BCBCBC] md:w-[270px]">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website.</p>
         <div className="flex items-center space-x-5 mt-10 md:mt-28">

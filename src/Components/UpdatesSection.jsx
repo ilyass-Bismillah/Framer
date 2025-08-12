@@ -1,3 +1,12 @@
+import  Image1  from "../assets/Framer/Ellipse1(2).png";
+import  Image2  from "../assets/Framer/Ellipse1(5).png";
+import  Image3  from "../assets/Framer/Ellipse1(8).png";
+import  Image4  from "../assets/Framer/Ellipse1(1).png";
+import  Image5  from "../assets/Framer/Ellipse1(4).png";
+import  Image6  from "../assets/Framer/Ellipse1(7).png";
+import  Image7  from "../assets/Framer/Ellipse1.png";
+import  Image8  from "../assets/Framer/Ellipse1(3).png";
+import  Image9  from "../assets/Framer/Ellipse1(6).png";
 
 const UpdatesSection = () => {
   return (
@@ -13,7 +22,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1 (2).png"
+                src={Image1}
                 width="400"
                 height="400"
                 loading="lazy"/>
@@ -31,7 +40,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1 (5).png"
+                src={Image2}
                 alt="user avatar"
                 width="200"
                 height="200"
@@ -50,7 +59,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1 (8).png"
+                src={Image3}
                 alt="user avatar"
                 width="400"
                 height="400"
@@ -70,7 +79,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1 (1).png"
+                src={Image4}
                 alt="user avatar"
                 width="200"
                 height="200"
@@ -91,7 +100,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1 (4).png"
+                src={Image5}
                 alt="user avatar"
                 width="200"
                 height="200"
@@ -110,7 +119,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1 (7).png"
+                src={Image6}
                 alt="user avatar"
                 width="400"
                 height="400"
@@ -130,7 +139,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1.png"
+                src={Image7}
                 alt="user avatar"
                 width="200"
                 height="200"
@@ -149,7 +158,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1 (3).png"
+                src={Image8}
                 alt="user avatar"
                 width="400"
                 height="400"
@@ -169,7 +178,7 @@ const UpdatesSection = () => {
             <div className="flex gap-4 mt-5">
               <img
                 className="w-12 h-12 rounded-full"
-                src="/src/assets/Framer/Ellipse 1 (6).png"
+                src={Image9}
                 alt="user avatar"
                 width="400"
                 height="400"

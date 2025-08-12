@@ -1,4 +1,8 @@
 import { FaArrowRight } from "react-icons/fa";
+import  Cylinder  from "../assets/Framer/cylinder1.png"
+import  Visual  from "../assets/Framer/Visual.png"
+import  HalfTorus  from "../assets/Framer/half-torus1.png"
+
 
 const HeroSection = () => {
   return (
@@ -15,9 +19,9 @@ const HeroSection = () => {
             <a className="flex items-center font-medium" href="">Learn more <span className="px-2"><FaArrowRight /></span></a>
         </div>
         </div>
-        <img src="/src/assets/Framer/cylinder 1.png" className="absolute top-28 lg:left-[37%] md:left-[55%] hidden sm:block"/>
-        <img src="/src/assets/Framer/Visual.png" className="absolute lg:right-0 -bottom-64 md:top-28 md:-right-80"/>
-        <img src="/src/assets/Framer/half-torus 1.png" className="absolute right-0 -bottom-36 hidden lg:block"/>
+        <img src={Cylinder} className="absolute top-28 lg:left-[37%] md:left-[55%] hidden sm:block"/>
+        <img src={Visual} className="absolute lg:right-0 -bottom-72 md:top-28 md:-right-80"/>
+        <img src={HalfTorus} className="absolute right-0 -bottom-36 hidden lg:block"/>
     </div>
   )
 }

@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import { FiMenu, FiX } from "react-icons/fi";
+import  Default  from "../assets/Framer/Default.png"
+import  Vector  from "../assets/Framer/Vector.png"
+
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,10 +11,10 @@ const Header = () => {
     <header>
       <div className='flex items-center justify-between bg-[#EAEEFE] h-20 px-2'>
       <div className='flex items-center'>
-        <img src="/src/assets/Framer/Default.png"/>
+        <img src={Default}/>
         <div className='hidden md:flex items-center'>
         <p className='text-lg'>made by</p>
-        <img src="/src/assets/Framer/Vector.png" className='px-2'/>
+        <img src={Vector} className='px-2'/>
         <p className='font-bold'>Framer</p>
         </div>
       </div>
